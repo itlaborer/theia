@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 import throttle = require('lodash.throttle');
-import { injectable, inject, postConstruct } from 'inversify';
+import { injectable, inject, postConstruct } from '@theia/core/shared/inversify';
 import { DebugProtocol } from 'vscode-debugprotocol/lib/debugProtocol';
 import { ConsoleSession, ConsoleItem } from '@theia/console/lib/browser/console-session';
 import { AnsiConsoleItem } from '@theia/console/lib/browser/ansi-console-item';

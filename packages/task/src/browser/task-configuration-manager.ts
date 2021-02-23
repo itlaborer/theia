@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 import debounce = require('p-debounce');
-import { inject, injectable, postConstruct, named } from 'inversify';
+import { inject, injectable, postConstruct, named } from '@theia/core/shared/inversify';
 import URI from '@theia/core/lib/common/uri';
 import { Emitter, Event } from '@theia/core/lib/common/event';
 import { EditorManager, EditorWidget } from '@theia/editor/lib/browser';

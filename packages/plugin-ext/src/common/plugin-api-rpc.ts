@@ -79,7 +79,7 @@ import { KeysToAnyValues, KeysToKeysToAnyValue } from './types';
 import { CancellationToken, Progress, ProgressOptions } from '@theia/plugin';
 import { DebuggerDescription } from '@theia/debug/lib/common/debug-service';
 import { DebugProtocol } from 'vscode-debugprotocol';
-import { SymbolInformation } from 'vscode-languageserver-types';
+import { SymbolInformation } from '@theia/core/shared/vscode-languageserver-types';
 import { ArgumentProcessor } from '../plugin/command-registry';
 import { MaybePromise } from '@theia/core/lib/common/types';
 import { QuickTitleButton } from '@theia/core/lib/common/quick-open-model';
@@ -1620,7 +1620,8 @@ export const MAIN_RPC_CONTEXT = {
     LABEL_SERVICE_EXT: createProxyIdentifier<LabelServiceExt>('LabelServiceExt'),
     TIMELINE_EXT: createProxyIdentifier<TimelineExt>('TimeLineExt'),
     THEMING_EXT: createProxyIdentifier<ThemingExt>('ThemingExt'),
-    COMMENTS_EXT: createProxyIdentifier<CommentsExt>('CommentsExt')};
+    COMMENTS_EXT: createProxyIdentifier<CommentsExt>('CommentsExt')
+};
 
 export interface TasksExt {
     $provideTasks(handle: number, token?: CancellationToken): Promise<TaskDto[] | undefined>;

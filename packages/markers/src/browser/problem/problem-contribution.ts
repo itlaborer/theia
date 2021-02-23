@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 import debounce = require('lodash.debounce');
-import { injectable, inject } from 'inversify';
+import { injectable, inject } from '@theia/core/shared/inversify';
 import { FrontendApplication, FrontendApplicationContribution, CompositeTreeNode, SelectableTreeNode, Widget } from '@theia/core/lib/browser';
 import { StatusBar, StatusBarAlignment } from '@theia/core/lib/browser/status-bar/status-bar';
 import { AbstractViewContribution } from '@theia/core/lib/browser/shell/view-contribution';

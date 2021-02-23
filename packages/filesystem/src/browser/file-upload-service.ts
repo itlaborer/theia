@@ -16,7 +16,7 @@
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
-import { injectable, inject, postConstruct } from 'inversify';
+import { injectable, inject, postConstruct } from '@theia/core/shared/inversify';
 import URI from '@theia/core/lib/common/uri';
 import { CancellationTokenSource, CancellationToken, checkCancelled, cancelled } from '@theia/core/lib/common/cancellation';
 import { Deferred } from '@theia/core/lib/common/promise-util';

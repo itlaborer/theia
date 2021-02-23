@@ -34,7 +34,7 @@
     "guard-for-in": "error",
     "id-blacklist": "off",
     "id-match": "off",
-    "import/no-extraneous-dependencies": "off",
+    "import/no-extraneous-dependencies": "error",
     "max-len": [
       "error",
       {
@@ -130,5 +130,15 @@
         }
       }
     ]
-  }
+  },
+  "overrides": [
+    {
+      "files": [
+        "*.{spec,espec,slow-spec}.{js,ts}"
+      ],
+      "rules": {
+        "import/no-extraneous-dependencies": "off"
+      }
+    }
+  ]
 }

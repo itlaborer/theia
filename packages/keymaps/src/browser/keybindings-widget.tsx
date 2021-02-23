@@ -17,7 +17,7 @@
 import React = require('react');
 import debounce = require('lodash.debounce');
 import * as fuzzy from 'fuzzy';
-import { injectable, inject, postConstruct } from 'inversify';
+import { injectable, inject, postConstruct } from '@theia/core/shared/inversify';
 import { Emitter, Event } from '@theia/core/lib/common/event';
 import { CommandRegistry, Command } from '@theia/core/lib/common/command';
 import { ReactWidget } from '@theia/core/lib/browser/widgets/react-widget';

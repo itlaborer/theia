@@ -22,7 +22,7 @@
 // Some entities copied and modified from https://github.com/Microsoft/vscode-debugadapter-node/blob/master/adapter/src/protocol.ts
 
 import * as net from 'net';
-import { injectable, inject } from 'inversify';
+import { injectable, inject } from '@theia/core/shared/inversify';
 import {
     RawProcessFactory,
     ProcessManager,

@@ -14,6 +14,8 @@
     "url": "https://github.com/eclipse-theia/theia/issues"
   },
   "homepage": "https://github.com/eclipse-theia/theia",
+  "main": "index.js",
+  "types": "index.d.ts",
   "bin": {
     "electron": "electron-cli.js",
     "electron-codecs-test": "electron-codecs-test.js",
@@ -26,6 +28,7 @@
     "fix-path": "^3.0.0",
     "native-keymap": "^2.1.2",
     "node-gyp": "^7.0.0",
+    "tslib": "^2.1.0",
     "unzipper": "^0.9.11",
     "yargs": "^15.3.1"
   },

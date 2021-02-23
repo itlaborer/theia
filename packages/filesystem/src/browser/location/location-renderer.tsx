@@ -17,7 +17,7 @@
 import URI from '@theia/core/lib/common/uri';
 import { LocationService } from './location-service';
 import { ReactRenderer } from '@theia/core/lib/browser/widgets/react-renderer';
-import * as React from 'react';
+import * as React from '@theia/core/shared/react';
 
 export class LocationListRenderer extends ReactRenderer {
 

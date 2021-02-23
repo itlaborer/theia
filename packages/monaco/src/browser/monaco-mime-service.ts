@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 import debounce = require('lodash.debounce');
-import { injectable } from 'inversify';
+import { injectable } from '@theia/core/shared/inversify';
 import { MimeAssociation, MimeService } from '@theia/core/lib/browser/mime-service';
 
 @injectable()

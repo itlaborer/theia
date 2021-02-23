@@ -26,7 +26,7 @@ import { ScmProvider, ScmResource, ScmResourceDecorations, ScmResourceGroup, Scm
 import { ScmRepository } from '@theia/scm/lib/browser/scm-repository';
 import { ScmService } from '@theia/scm/lib/browser/scm-service';
 import { RPCProtocol } from '../../common/rpc-protocol';
-import { interfaces } from 'inversify';
+import { interfaces } from '@theia/core/shared/inversify';
 import { Emitter, Event } from '@theia/core/lib/common/event';
 import { CancellationToken } from '@theia/core/lib/common/cancellation';
 import { Disposable, DisposableCollection } from '@theia/core/lib/common/disposable';

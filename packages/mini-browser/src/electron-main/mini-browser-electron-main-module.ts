@@ -15,7 +15,7 @@
  ********************************************************************************/
 
 import { ElectronMainApplicationContribution } from '@theia/core/lib/electron-main/electron-main-application';
-import { ContainerModule } from 'inversify';
+import { ContainerModule } from '@theia/core/shared/inversify';
 import { MiniBrowserElectronMainContribution } from './mini-browser-electron-main-contribution';
 
 export default new ContainerModule(bind => {
